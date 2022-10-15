@@ -63,6 +63,8 @@
   display: flex;
   justify-content: space-between;
   margin: 0 1.5rem 0.8rem 1.5rem;
+  border-bottom: 3px solid #2e405a;
+  padding-bottom: 1rem;
 }
 
 .notches__one {
@@ -92,4 +94,29 @@
   letter-spacing: 0;
   text-align: left;
   color: rgba(139, 172, 217, 1);
+}
+
+.last-data {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.8rem;
+  margin: 1rem 5rem 1rem 1rem;
+}
+
+.last-data__image {
+  height: 33px;
+  width: 33px;
+  border: 1px solid rgba(255, 255, 255, 1);
+  border-radius: 50%;
+}
+
+.last-data h3 {
+  font-family: 'Outfit', sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 19px;
+  letter-spacing: 0;
+  text-align: left;
+  color: #8bacd9;
 }
