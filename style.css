@@ -33,6 +33,20 @@
   height: 278px;
   width: 278px;
   border-radius: 8px;
+  position: relative;
+  /* top: 1.5rem; */
+  /* left: 1rem; */
+}
+
+.equilibrium-image:hover,
+.equilibrium-image:active {
+  background: url('./images/icon-view.svg'), rgba(0, 255, 248, 1);
+  background-repeat: no-repeat;
+  background-size: 50% 50% 50% 50%;
+  background-origin: border-box;
+  /* width: 278px;  */
+  border-radius: 8px;
+  opacity: 50%;
 }
 
 .content h1 {
@@ -45,6 +59,11 @@
   text-align: left;
   color: #fff;
   margin: 1.5rem 1.5rem 0.8rem 1.5rem;
+}
+
+.content h1:hover,
+.content h1:active {
+  color: aqua;
 }
 
 .content h2 {
@@ -107,7 +126,7 @@
 .last-data__image {
   height: 33px;
   width: 33px;
-  border: 1px solid rgba(255, 255, 255, 1);
+  border: 1px solid #fff;
   border-radius: 50%;
 }
 
@@ -119,4 +138,19 @@
   letter-spacing: 0;
   text-align: left;
   color: #8bacd9;
+}
+
+.last-data h3 span {
+  color: #fff;
+}
+
+.last-data h3 span:hover,
+.last-data h3 span:active {
+  color: aqua;
+}
+
+@media (min-width: 1440px) {
+  .container {
+    width: 100vw;
+  }
 }
