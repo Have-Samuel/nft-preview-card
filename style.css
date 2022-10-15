@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@600&display=swap');
 
 * {
@@ -19,8 +21,6 @@
 .content {
   height: 543px;
   width: 327px;
-  left: 24px;
-  top: 62px;
   border-radius: 15px;
   background: rgba(21, 38, 63, 1);
   box-shadow: 0 25px 50px 0 rgba(0, 0, 0, 0.0953);
@@ -36,10 +36,7 @@
 }
 
 .content h1 {
-  height: 28px;
   width: 278px;
-  left: 24px;
-  top: 326px;
   font-family: 'Outfit', sans-serif;
   font-size: 22px;
   font-weight: 600;
@@ -51,7 +48,6 @@
 }
 
 .content h2 {
-  height: 52px;
   width: 278px;
   font-family: 'Outfit', sans-serif;
   font-size: 18px;
@@ -74,5 +70,26 @@
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  gap: 1rem;
+  gap: 0.5rem;
+}
+
+.notches__one-1 {
+  width: 70px;
+  font-family: 'Outfit', sans-serif;
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 19px;
+  letter-spacing: 0;
+  text-align: left;
+  color: rgba(0, 255, 248, 1);
+}
+
+.notches__one-2 {
+  font-family: 'Outfit', sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 19px;
+  letter-spacing: 0;
+  text-align: left;
+  color: rgba(139, 172, 217, 1);
 }
