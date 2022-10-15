@@ -28,10 +28,51 @@
 
 .equilibrium-image {
   background-image: url('./images/image-equilibrium.jpg');
-  background-repeat: no-repeat;
   background-size: contain;
   margin: 1.5rem auto;
   height: 278px;
   width: 278px;
   border-radius: 8px;
+}
+
+.content h1 {
+  height: 28px;
+  width: 278px;
+  left: 24px;
+  top: 326px;
+  font-family: 'Outfit', sans-serif;
+  font-size: 22px;
+  font-weight: 600;
+  line-height: 28px;
+  letter-spacing: 0;
+  text-align: left;
+  color: #fff;
+  margin: 1.5rem 1.5rem 0.8rem 1.5rem;
+}
+
+.content h2 {
+  height: 52px;
+  width: 278px;
+  font-family: 'Outfit', sans-serif;
+  font-size: 18px;
+  font-weight: lighter;
+  line-height: 26px;
+  letter-spacing: 0;
+  text-align: left;
+  margin: 0 1.5rem 1rem 1.5rem;
+  color: #8bacd9;
+}
+
+.notches {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 1.5rem 0.8rem 1.5rem;
+}
+
+.notches__one {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
 }
