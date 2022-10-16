@@ -19,11 +19,11 @@
 }
 
 .content {
-  height: 543px;
   width: 327px;
   border-radius: 15px;
   background: rgba(21, 38, 63, 1);
   box-shadow: 0 25px 50px 0 rgba(0, 0, 0, 0.0953);
+  position: relative;
 }
 
 .equilibrium-image {
@@ -33,20 +33,28 @@
   height: 278px;
   width: 278px;
   border-radius: 8px;
-  position: relative;
-  /* top: 1.5rem; */
-  /* left: 1rem; */
 }
 
-.equilibrium-image:hover,
-.equilibrium-image:active {
-  background: url('./images/icon-view.svg'), rgba(0, 255, 248, 1);
-  background-repeat: no-repeat;
-  background-size: 50% 50% 50% 50%;
-  background-origin: border-box;
-  /* width: 278px;  */
+.middle {
+  color: #fff;
+  width: 278px;
   border-radius: 8px;
-  opacity: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+.equilibrium-image:hover .middle,
+.equilibrium-image:active .middle {
+  background: url('./images/icon-view.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: rgb(83, 248, 243);
+  opacity: 50.3%;
+  cursor: pointer;
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  height: 278px;
 }
 
 .content h1 {
@@ -58,6 +66,7 @@
   letter-spacing: 0;
   text-align: left;
   color: #fff;
+  cursor: pointer;
   margin: 1.5rem 1.5rem 0.8rem 1.5rem;
 }
 
@@ -147,9 +156,10 @@
 .last-data h3 span:hover,
 .last-data h3 span:active {
   color: aqua;
+  cursor: pointer;
 }
 
-@media (min-width: 1440px) {
+@media (min-width: 1000px) {
   .container {
     width: 100vw;
   }
