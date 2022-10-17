@@ -19,7 +19,7 @@ This is a solution to the [NFT preview card component challenge on Frontend Ment
 ### Links
 
 - [Github](https://github.com/Have-Samuel/nft-preview-card)
-- [Live Link]()
+- [Live Link](https://cool-nft-card-preview.netlify.app/)
 
 ## My process
 
