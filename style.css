@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  background-color: #0d192c;
+  height: 100vh;
+  width: 100vw;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.content {
+  width: 327px;
+  border-radius: 15px;
+  background: rgba(21, 38, 63, 1);
+  box-shadow: 0 25px 50px 0 rgba(0, 0, 0, 0.0953);
+  position: relative;
+}
+
+.equilibrium-image {
+  background-image: url('./images/image-equilibrium.jpg');
+  background-size: contain;
+  margin: 1.5rem auto;
+  height: 278px;
+  width: 278px;
+  border-radius: 8px;
+}
+
+.middle {
+  width: 278px;
+  border-radius: 8px;
+  transform: translate(-50%, -50%);
+}
+
+.equilibrium-image:hover .middle,
+.equilibrium-image:active .middle {
+  background: url('./images/icon-view.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: #06faf23a;
+  cursor: pointer;
+  position: absolute;
+  top: 163px;
+  left: 50%;
+  height: 278px;
+}
+
+.content h1 {
+  width: 278px;
+  font-family: 'Outfit', sans-serif;
+  font-size: 22px;
+  font-weight: 600;
+  line-height: 28px;
+  letter-spacing: 0;
+  text-align: left;
+  color: #fff;
+  cursor: pointer;
+  margin: 1.5rem 1.5rem 0.8rem 1.5rem;
+}
+
+.content h1:hover,
+.content h1:active {
+  color: aqua;
+}
+
+.content h2 {
+  width: 278px;
+  font-family: 'Outfit', sans-serif;
+  font-size: 18px;
+  font-weight: lighter;
+  line-height: 26px;
+  letter-spacing: 0;
+  text-align: left;
+  margin: 0 1.5rem 1rem 1.5rem;
+  color: #8bacd9;
+}
+
+.notches {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 1.5rem 0.8rem 1.5rem;
+  border-bottom: 3px solid #2e405a;
+  padding-bottom: 1rem;
+}
+
+.notches__one {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.notches__one-1 {
+  width: 70px;
+  font-family: 'Outfit', sans-serif;
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 19px;
+  letter-spacing: 0;
+  text-align: left;
+  color: rgba(0, 255, 248, 1);
+}
+
+.notches__one-2 {
+  font-family: 'Outfit', sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 19px;
+  letter-spacing: 0;
+  text-align: left;
+  color: rgba(139, 172, 217, 1);
+}
+
+.last-data {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.8rem;
+  margin: 1rem 5rem 1rem 1rem;
+}
+
+.last-data__image {
+  height: 33px;
+  width: 33px;
+  border: 1px solid #fff;
+  border-radius: 50%;
+}
+
+.last-data h3 {
+  font-family: 'Outfit', sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 19px;
+  letter-spacing: 0;
+  text-align: left;
+  color: #8bacd9;
+}
+
+.last-data h3 span {
+  color: #fff;
+}
+
+.last-data h3 span:hover,
+.last-data h3 span:active {
+  color: aqua;
+  cursor: pointer;
+}
+
+@media (min-width: 1240px) {
+  .container {
+    width: 100vw;
+    height: 100vh;
+  }
+}
